@@ -1,50 +1,6 @@
 # Notable-MT-Systems
 By : Aniruddha Deshpande (20161058)
 
-# Directory Structure
-.
-├── Data
-│   └── enghin
-│       ├── dev.en
-│       ├── dev.hi
-│       ├── test.en
-│       ├── test.hi
-│       ├── train.en
-│       └── train.hi
-├── Models
-│   ├── Attn_Seq2Seq_NMT
-│   │   ├── Decoder
-│   │   │   └── eng_to_hin_decoder.pth
-│   │   └── Encoder
-│   │       └── eng_to_hin_encoder.pth
-│   ├── Eff_Attn_NMT
-│   │   ├── Attention
-│   │   │   ├── eng_to_hin_attention_params_concat
-│   │   │   ├── eng_to_hin_attention_params_dot
-│   │   │   └── eng_to_hin_attention_params_general
-│   │   ├── Decoder
-│   │   │   ├── eng_to_hin_decoder_params_concat
-│   │   │   ├── eng_to_hin_decoder_params_dot
-│   │   │   └── eng_to_hin_decoder_params_general
-│   │   └── Encoder
-│   │       ├── eng_to_hin_encoder_params_concat
-│   │       ├── eng_to_hin_encoder_params_dot
-│   │       └── eng_to_hin_encoder_params_general
-│   └── Seq2Seq_NMT
-│       ├── Decoder
-│       │   └── eng_to_hin_decoder.pth
-│       └── Encoder
-│           └── eng_to_hin_encoder.pth
-├── Question
-│   └── Assignment 4
-└── Source
-    ├── Attn_Seq2Seq_NMT
-    │   └── attn_seq2seq_nmt.ipynb
-    ├── Eff_Attn_NMT
-    │   └── eff_attn_nmt.ipynb
-    └── Seq2Seq_NMT
-  	└── seq2seq_nmt.ipynb
-
 # Drive Link to Code and Model
 1. Please refer to this [drive link](https://drive.google.com/drive/folders/19YhLaLd6Tg2U5pGlAiu7jPV1GlIKI0Ws?usp=sharing) to access the Code and the Model.
 2. The Code can be found in the `Source` Folder:
